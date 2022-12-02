@@ -1,0 +1,113 @@
+{
+    "Projects": [
+        {
+            "name": "EE",
+            "enviroment": [
+                {
+                    "envnames": "Dev",
+                    "builds": [
+                        {
+                            "Bname": "DEV1",
+                            "buildids": [
+                                "SIT-EED1WP"
+                               
+                            ],
+                            "envIds": [
+                                "211353604"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FP"
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                            
+                        },
+                        {
+                            "Bname": "DEV3",
+                            "buildids": [
+                                "SIT-EED3WPB"
+                                
+                            ],
+                            "envIds": [
+                                "211353602"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        },
+                        {
+                            "Bname": "DEV5",
+                            "buildids": [
+                                "12345"
+                            ],
+                            "envIds": [
+                                "211353604"
+                            ],
+                            "buildFetchId": [
+                                "FP"
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        }
+                    ]
+                },
+                {
+                    "envnames": "Release1",
+                    "builds": [
+                        {
+                            "Bname": "DEV4",
+                            "buildids": [
+                                "SIT-EEWPAB"
+                                
+                            ],
+                            "envIds": [
+                                "463077377"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        },
+                        {
+                            "Bname": "SIT4",
+                            "buildids": [
+                                "SIT-EEWPAB"
+                                
+                            ],
+                            "envIds": [
+                                "463077377"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        }
+                    ]
+                }
+                
+            ]
+        }
+        
+    ]
+}

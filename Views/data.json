@@ -1,0 +1,66 @@
+{
+    "Projects": [
+        {
+            "name": "EE",
+            "enviroment": [
+                {
+                    "envnames": "Dev",
+                    "builds": [
+                        {
+                            "Bname": "DEV1",
+                            "buildids": [
+                                "12345",
+                                "10235",
+                                "58464",
+                                "97486"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "envnames": "Release1",
+                    "builds": [
+                        {
+                            "Bname": "DEV4",
+                            "buildids": [
+                                "8764",
+                                "6744"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "RE",
+            "enviroment": [
+                {
+                    "envnames": "Dev",
+                    "builds": [
+                        {
+                            "Bname": "DEV2",
+                            "buildids": [
+                                "12345",
+                                "10235",
+                                "58464",
+                                "97486"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "envnames": "Release3",
+                    "builds": [
+                        {
+                            "Bname": "DEV9",
+                            "buildids": [
+                                "8764",
+                                "6744"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

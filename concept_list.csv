@@ -1,0 +1,19 @@
+﻿environments,DEV,Release,R1,R3,R5,APPLICATIONS,"DEV1-
+buildID","DEV3-
+buildID","DEV5-
+buildID","R1/R3/R5
+buildID","DEV1-
+deploymentID","DEV3-
+deploymentID","DEV5-
+deploymentID","R1/R3/R5-
+deploymentID"
+DEV,DEV1,Release1,DEV4,"DEV6
+
+","DEV2
+
+",WP APP,SIT-EED1WP,buildid,buildid,SIT-EED1WPD,45678,depid,depid,depid
+Release,DEV3,Release3,SIT 1,SIT 3 ,SIT 5,WP BATCH,buildid,buildid,buildid,BUILDID-13456,depid,depid,depid,depid
+,DEV5,Release5,AUAT,CUAT,TUAT,SSP APP,buildid,buildid,buildid,BUILDID-87,depid,depid,depid,depid
+,,,,,,SSP BATCH,buildid,buildid,buildid,BUILDID-678u,depid,depid,depid,depid
+,,,,,,BRE,buildid,buildid,buildid,BUILDID-7yh,depid,depid,depid,depid
+,,,,,,HPCC,buildid,buildid,buildid,BUILDID-567uygfcvbhj,depid,depid,depid,depid
