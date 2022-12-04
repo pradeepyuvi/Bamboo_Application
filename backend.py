@@ -156,6 +156,7 @@ def getCommitStatus(autHeader, buildId, buildFetchId, buildNumber):
         table_buildFetchId = bsoup.body.find("table", {"id": "buildLog"})
         flag = False
         logsList = ""
+        logsData=logsList
         for i in table_buildFetchId.findAll("tr"):
             cells = i.findAll("td", {"class": "buildOutputLog"})
             if cells != []:
@@ -167,9 +168,20 @@ def getCommitStatus(autHeader, buildId, buildFetchId, buildNumber):
                             flag = True
                 if flag:
                     if logi != None:
+                        str(logsList)
+                        # logsList.replace(" ","/")
                         logsList = logsList + \
-                            (cells[0].find(text=True) + ",  ")
-        return logsList
+                            (cells[0].find(text=True)+",").strip()
+        logsss=logsList.replace(",","\n")
+        logsq=logsss.split("\n")
+        a=[]
+        for i in logsq:
+            if i !="":
+                a.append(i)
+
+        b=','.join(a)
+        c=b.replace(",","\n")
+        return c
     except:
         return "error!!!!"
     # log(table_buildFetchId.find("td"))
@@ -225,7 +237,9 @@ def getNextScheduledData(cronExp):
             # log(resp.decode("utf-8").split(","))
             # log(cronId)
             # log(converturl)
-            return resp.decode("utf-8").split(",")
+            sched=resp.decode("utf-8").split(",")
+            commit=("\n".join(sched))
+            return commit
     except:
         return "errorr!!!"
 
@@ -245,7 +259,7 @@ a = genAuthHeader('amey.maldikar', 'Nov.2022$')
 # log(getDeploymentStatusLog('1373999432', '1315209222', 0))
 # log(getBuildStatus(genAuthHeader('amey.maldikar', 'Nov.2022$'), "SIT-EEWPAB")['buildNumber'])
 
-# log(getCommitStatus(genAuthHeader('amey.maldikar', 'Nov.$'), "SIT-EED1WP", "FP", "9280"))
+log(getCommitStatus(genAuthHeader('prathmesh.patil', 'Voyage@1918'), "SIT-EEWPAB", "FET", "2533"))
 # log(getNextScheduledTime(genAuthHeader('amey.maldikar', 'Nov.2022$')))
 
 # log(getNextScheduledData('0 1 1-7/1,10-22/1 ? * *'))

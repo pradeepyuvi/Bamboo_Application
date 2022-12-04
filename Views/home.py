@@ -52,7 +52,7 @@ class Home(UserControl):
                     )
                 )
                 self.projectData[project["name"]] = project["enviroment"]
-                self.showProgress("Json Loaded Succfully")
+                self.showProgress("Json Loaded successfully")
         self.loadButton.current.disabled = True
         self.update()
 
@@ -122,7 +122,7 @@ class Home(UserControl):
                                        self.cronExp[key], self.appName[key]):
             buildStatusAndNumber = backend.getBuildStatus(authHeader, i)
             if (buildStatusAndNumber['buildStatus'] != 'Successful'):
-                self.showDailog(f"No Build Found for {i}")
+                # self.showDailog(f"No Build Found for {i}")
                 self.gridview.current.controls.append(
                     GridViewChild(
                         e.data, i, self.showMsg, buildStatusAndNumber['buildStatus'], "", "", "", appName)
@@ -191,12 +191,12 @@ class Home(UserControl):
                                         ref=self.projectDropDown,
                                         on_change=self.onChangeOnProject,
                                     ), Dropdown(
-                                        label="Environment",
+                                        label="Environment/Release",
                                         ref=self.envroiment,
                                         on_change=self.onChangeOnEnv,
                                     ),
                                     Dropdown(
-                                        label="SubEnvironment",
+                                        label="Environment",
                                         ref=self.buildEnv,
                                         on_change=self.onChangeOnBuild
                                     ),
@@ -219,7 +219,7 @@ class Home(UserControl):
                                 # width=1200,
                                 # height=2,
                                 spacing=100,
-                                run_spacing=10,
+                                run_spacing=100,
                                 ref=self.gridview,
                                 # auto_scroll=True,
                             )
