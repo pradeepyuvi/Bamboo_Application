@@ -5,7 +5,6 @@ from flet import *
 from flet import colors, dropdown, icons, padding
 from Views import home
 
-
 class Main(UserControl):
     def __init__(self):
         super().__init__()
@@ -49,7 +48,7 @@ def main(page: Page):
         page.views.clear()
         page.views.append(toppage)
         page.update()
-    page.title = "bamboo build"
+    page.title = "Bamboo Application Status"
     page.horizontal_alignment = "center"
     page.update()
 

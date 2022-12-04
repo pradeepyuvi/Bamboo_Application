@@ -9,12 +9,141 @@
                         {
                             "Bname": "DEV1",
                             "buildids": [
-                                "12345",
-                                "10235",
-                                "58464",
-                                "97486"
+                                "SIT-EED1WP",
+                                "SIT-EED1WPBB",
+                                "SIT-SSPDEV",
+                                "SIT-EED1SSPB",
+                                "SIT-EEB",
+                                "SIT-EED1HPCC"
+                               
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "211353604",
+                                "275415041",
+                                "24576001",
+                                "378109954",
+                                "460062721",
+                                "183959553"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FP",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 3 1-7/1,10-22/1 ? * *",
+                                "0 3 1-7/1,10-22/1 ? * *"
                             ]
-                        }
+                            
+                            
+                        },
+                        {
+                            "Bname": "DEV3",
+                            "buildids": [
+                                "SIT-EED3WPB",
+                                "SIT-EED3WPBB",
+                                "SIT-EED3SSPAB",
+                                "SIT-EED3SSPBB",
+                                "SIT-EED3BREB",
+                                "SIT-EED3HPCC"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "211353602",
+                                "211353603",
+                                "429654017",
+                                "362119169",
+                                "512720897",
+                                "211353601"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 21 1-7/1,10-22/1 ? * *",
+                                "0 21 1-7/1,10-22/1 ? * *",
+                                "0 3 1-7/1,10-22/1 ? * *",
+                                "0 41 1-7/1,10-22/1 ? * *",
+                                "0 23 1-7/1,10-22/1 ? * *",
+                                "0 3 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        },
+                        {
+                            "Bname": "DEV5",
+                            "buildids": [
+                                "SIT-EED5WPAB",
+                                "SIT-EED5WPBB",
+                                "SIT-EED5SSPB",
+                                "SIT-EED5SSPBB",
+                                "SIT-EED5B",
+                                "SIT-EED5HPCCB"
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "522649601",
+                                "530153473",
+                                "526876673",
+                                "526876674",
+                                "522649602",
+                                "525762561"
+                            ],
+                            "buildFetchId": [
+                                "FP",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                            ],
+                            "cronExp":[
+                                "0 41 1-7/1,10-22/1 ? * *",
+                                "0 41 1-8/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 43 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        } 
                     ]
                 },
                 {
@@ -23,28 +152,96 @@
                         {
                             "Bname": "DEV4",
                             "buildids": [
-                                "8764",
-                                "6744"
+                                "SIT-EEWPAB",
+                                "SIT-EEWPBB",
+                                "SIT-EESSPAB",
+                                "SIT-EESSPBB",
+                                "SIT-EEBREB",
+                                "SIT-EEHPCCB"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "463077377",
+                                "671842305",
+                                "429654018",
+                                "378109953",
+                                "539754497",
+                                "343277569"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "RE",
-            "enviroment": [
-                {
-                    "envnames": "Dev",
-                    "builds": [
+                            
+                        },
                         {
-                            "Bname": "DEV2",
+                            "Bname": "SIT1",
                             "buildids": [
-                                "12345",
-                                "10235",
-                                "58464",
-                                "97486"
+                                "SIT-EEWPAB",
+                                "SIT-EEWPBB",
+                                "SIT-EESSPAB",
+                                "SIT-EESSPBB",
+                                "SIT-EEBREB",
+                                "SIT-EEHPCCB"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "463077377",
+                                "671842305",
+                                "429654018",
+                                "378109953",
+                                "539754497",
+                                "343277569"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
                             ]
+                            
                         }
                     ]
                 },
@@ -52,15 +249,561 @@
                     "envnames": "Release3",
                     "builds": [
                         {
-                            "Bname": "DEV9",
+                            "Bname": "DEV6",
                             "buildids": [
-                                "8764",
-                                "6744"
+                                "SIT-EEWPAB",
+                                "SIT-EEWPBB",
+                                "SIT-EESSPAB",
+                                "SIT-EESSPBB",
+                                "SIT-EEBREB",
+                                "SIT-EEHPCCB"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "463077377",
+                                "671842305",
+                                "429654018",
+                                "378109953",
+                                "539754497",
+                                "343277569"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
                             ]
+                            
+                        },
+                        {
+                            "Bname": "SIT3",
+                            "buildids": [
+                                "SIT-EEWPAB",
+                                "SIT-EEWPBB",
+                                "SIT-EESSPAB",
+                                "SIT-EESSPBB",
+                                "SIT-EEBREB",
+                                "SIT-EEHPCCB"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "463077377",
+                                "671842305",
+                                "429654018",
+                                "378109953",
+                                "539754497",
+                                "343277569"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        }
+                    ]
+                },
+                {
+                    "envnames": "Release5",
+                    "builds": [
+                        {
+                            "Bname": "DEV2",
+                            "buildids": [
+                                "SIT-EEWPAB",
+                                "SIT-EEWPBB",
+                                "SIT-EESSPAB",
+                                "SIT-EESSPBB",
+                                "SIT-EEBREB",
+                                "SIT-EEHPCCB"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "463077377",
+                                "671842305",
+                                "429654018",
+                                "378109953",
+                                "539754497",
+                                "343277569"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        },
+                        {
+                            "Bname": "SIT5",
+                            "buildids": [
+                                "SIT-EEWPAB",
+                                "SIT-EEWPBB",
+                                "SIT-EESSPAB",
+                                "SIT-EESSPBB",
+                                "SIT-EEBREB",
+                                "SIT-EEHPCCB"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "463077377",
+                                "671842305",
+                                "429654018",
+                                "378109953",
+                                "539754497",
+                                "343277569"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FET",
+                                "FP"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "no CronExpression",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
                         }
                     ]
                 }
+                
+            ]
+        },
+        {
+            "name": "IE",
+            "enviroment": [
+                {
+                    "envnames": "Dev",
+                    "builds": [
+                        {
+                            "Bname": "DEV3",
+                            "buildids": [
+                                "LAIE-IED3WPAB",
+                                "LAIE-IED3WPBB",
+                                "LAIE-IED3SSPAB",
+                                "LAIE-IED3SSPBB",
+                                "LAIE-IED3BREB",
+                                "LAIE-IED3HPCCB"
+                               
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "706183173",
+                                "706183174",
+                                "706183171",
+                                "706183172",
+                                "706183169",
+                                "706183170"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FPT",
+                                "FP",
+                                "FP",
+                                "FP"
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                            
+                        }
+                        
+                    ]
+                },
+                {
+                    "envnames": "Release1",
+                    "builds": [
+                        {
+                            "Bname": "DEV1",
+                            "buildids": [
+                                "LAIE-LAIED",
+                                "LAIE-IED2WPB",
+                                "LAIE-LAIES",
+                                "LAIE-IED2SSPB",
+                                "LAIE-IED2BRE",
+                                "LAIE-IED2HP"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "36700162",
+                                "69795842",
+                                "41746436",
+                                "115474434",
+                                "69795841",
+                                "69795844"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FP",
+                                "FET"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        },
+                        {
+                            "Bname": "SIT1",
+                            "buildids": [
+                                "LAIE-LAIED",
+                                "LAIE-IED2WPB",
+                                "LAIE-LAIES",
+                                "LAIE-IED2SSPB",
+                                "LAIE-IED2BRE",
+                                "LAIE-IED2HP"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "36700162",
+                                "69795842",
+                                "41746436",
+                                "115474434",
+                                "69795841",
+                                "69795844"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FP",
+                                "FET"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        }
+                    ]
+                },
+                {
+                    "envnames": "Release2",
+                    "builds": [
+                        {
+                            "Bname": "DEV2",
+                            "buildids": [
+                                "LAIE-LAIED",
+                                "LAIE-IED2WPB",
+                                "LAIE-LAIES",
+                                "LAIE-IED2SSPB",
+                                "LAIE-IED2BRE",
+                                "LAIE-IED2HP"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "36700162",
+                                "69795842",
+                                "41746436",
+                                "115474434",
+                                "69795841",
+                                "69795844"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FP",
+                                "FET"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        },
+                        {
+                            "Bname": "SIT2",
+                            "buildids": [
+                                "LAIE-LAIED",
+                                "LAIE-IED2WPB",
+                                "LAIE-LAIES",
+                                "LAIE-IED2SSPB",
+                                "LAIE-IED2BRE",
+                                "LAIE-IED2HP"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "36700162",
+                                "69795842",
+                                "41746436",
+                                "115474434",
+                                "69795841",
+                                "69795844"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FP",
+                                "FET"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        }
+                    ]
+                },
+                {
+                    "envnames": "Release4",
+                    "builds": [
+                        {
+                            "Bname": "DEV4",
+                            "buildids": [
+                                "LAIE-LAIED",
+                                "LAIE-IED2WPB",
+                                "LAIE-LAIES",
+                                "LAIE-IED2SSPB",
+                                "LAIE-IED2BRE",
+                                "LAIE-IED2HP"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "36700162",
+                                "69795842",
+                                "41746436",
+                                "115474434",
+                                "69795841",
+                                "69795844"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FP",
+                                "FET"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        },
+                        {
+                            "Bname": "SIT4",
+                            "buildids": [
+                                "LAIE-LAIED",
+                                "LAIE-IED2WPB",
+                                "LAIE-LAIES",
+                                "LAIE-IED2SSPB",
+                                "LAIE-IED2BRE",
+                                "LAIE-IED2HP"
+                                
+                            ],
+                            "appName":[
+                                "WP APP",
+                                "WP BATCH",
+                                "SSP APP",
+                                "SSP BATCH",
+                                "BRE",
+                                "HPCC"
+                            ],
+                            "envIds": [
+                                "36700162",
+                                "69795842",
+                                "41746436",
+                                "115474434",
+                                "69795841",
+                                "69795844"
+                                
+                            ],
+                            "buildFetchId": [
+                                "FET",
+                                "FET",
+                                "FP",
+                                "FP",
+                                "FP",
+                                "FET"
+                               
+                            ],
+                            "cronExp":[
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *",
+                                "0 1 1-7/1,10-22/1 ? * *"
+                            ]
+                            
+                        }
+                    ]
+                }
+                
             ]
         }
-    ]
+        
+        
+    ]    
+    
 }
